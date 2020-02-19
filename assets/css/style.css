@@ -1,0 +1,225 @@
+:root{
+
+    --principal-color: #805738;
+    --secondary-color: #FFD9BD;
+    --auxiliar-color:#FFAE70;
+    --dark--color: #000000;
+    --light-color: #FFFFFF;
+
+
+    --small-size: 20px;
+    --hight-size: 50px
+
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../icons/fonts/icomoon.eot?7061bf');
+    src:  url('../icons/fonts/icomoon.eot?7061bf#iefix') format('embedded-opentype'),
+      url('../icons/fonts/icomoon.ttf?7061bf') format('truetype'),
+      url('../icons/fonts/icomoon.woff?7061bf') format('woff'),
+      url('../icons/fonts/icomoon.svg?7061bf#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  
+
+.grid-container{
+
+    padding-top: var(--small-size);
+    
+}
+
+header{
+    z-index: 1;
+    position: sticky;
+    top: -1px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--principal-color);
+    height: var(--hight-size);
+    
+}
+
+.header li a{
+    color: var(--light-color);
+}
+
+.slide{
+    z-index: 2;
+    padding-top: var(--small-size);
+}
+
+.info{
+    background-color: var(--secondary-color);
+    margin-top: var(--small-size);
+    padding-bottom: var(--small-size);
+}
+
+.info__header{
+    text-align: center;
+}
+
+.info__main{
+    display: flex;
+    padding: var(--small-size)
+}
+
+.info__main--information{
+    padding-right: var(--small-size);
+}
+
+.info__button{
+    padding-left: var(--hight-size);
+}
+
+.pyp{
+    display: flex;
+    background-color: var(--principal-color);
+    padding:var(--small-size)
+}
+
+.pyp__img{
+    padding-right: var(--small-size);
+}
+
+.pyp__info--item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pyp__info--item__information{
+
+    padding-left: var(--small-size);
+}
+
+.item__plus{
+    display: flex;
+}
+
+.item__plus--info{
+    padding-left: var(--small-size);
+}
+
+.values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:var(--small-size);
+    margin-top:var(--small-size);
+    margin-bottom:var(--small-size);
+    background-color: var(--dark--color);
+    color: var(--light-color);
+}
+
+
+.summary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.summary__info{
+    padding-top: var(--small-size);
+    text-align: center;
+}
+
+.agreements__officials{
+    padding: var(--hight-size);
+}
+
+.elements__info{
+    padding: var(--hight-size);
+}
+
+.elements__img{
+    padding: var(--hight-size);
+}
+
+.featurings__info{
+    padding: var(--hight-size);
+}
+
+.featurings__img{
+    padding: var(--hight-size);
+}
+
+.clients__summary{
+    padding: var(--hight-size);
+    
+}
+
+.clients__img{
+    padding: var(--hight-size);
+    
+}
+
+.summary{
+    background-color: var(--auxiliar-color);
+}
+
+.summary__info{
+    padding: var(--hight-size);
+
+}
+
+.summary__img{
+    padding: var(--hight-size);
+
+}
+
+.contact{
+    padding-top: var(--hight-size);
+}
+
+.form__btn{
+    width: 100%;
+    height: var(--hight-size);
+}
+
+.contact__mail{
+    padding-top: var(--hight-size);
+}
+.contact__offices{
+    background-color: var(--secondary-color);
+    margin-top: var(--hight-size);
+    margin-bottom: var(--small-size);
+    padding: var(--small-size);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--auxiliar-color);
+}
+
