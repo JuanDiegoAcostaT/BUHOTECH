@@ -152,8 +152,20 @@ header{
     text-align: center;
 }
 
+.agreements__title{
+    background-color: var(--secondary-color);
+}
+
 .agreements__officials{
     padding: var(--hight-size);
+}
+
+.officials__item{
+    padding: var(--small-size);
+}
+
+.elements__title{
+    background-color: var(--secondary-color);
 }
 
 .elements__info{
@@ -164,6 +176,10 @@ header{
     padding: var(--hight-size);
 }
 
+.featurings__title{
+    background-color: var(--secondary-color);
+}
+
 .featurings__info{
     padding: var(--hight-size);
 }
@@ -172,14 +188,18 @@ header{
     padding: var(--hight-size);
 }
 
+.clients__title{
+    background-color: var(--secondary-color);
+}
+
 .clients__summary{
     padding: var(--hight-size);
     
 }
 
-.clients__img{
+.clients__img img{
     padding: var(--hight-size);
-    
+
 }
 
 .summary{

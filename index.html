@@ -23,12 +23,12 @@
             <div class="menu">
             <ul class="menu align-center">
               <li><a href="./index.html">Home</a></li>
-              <li><a href="#">Quienes somos?</a></li>
-              <li><a href="#">Permisos y Presencia</a></li>
+              <li><a href="#info">Quienes somos?</a></li>
+              <li><a href="#pyp">Permisos y Presencia</a></li>
               <li><a href="./agrements.html">Relaciones y convenios</a></li>
               <li><a href="./clients.html">Nuestros Clientes</a></li>
-              <li><a href="#">Centro de imagenes</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="./images.html">Galeria</a></li>
+              <li><a href="#contact">Contacto</a></li>
             </ul>
             </div>
           </div>
@@ -80,7 +80,7 @@
 
 
         <!-- VISION AND MISION -->
-        <section>
+        <section  id="info">
           <div class="info">
             <div class="info__header">
               <h2>
@@ -122,7 +122,7 @@
 
 
         <!-- PERMITS AND PRESENCE -->
-        <section>
+        <section id="pyp">
           <div class="pyp">
             <div class="pyp__img">
               <img src="./assets/img/SlidesExample.jpg" width="700px" alt="MAP">
@@ -231,7 +231,7 @@
 
 
         <!-- VALUES -->
-        <section>
+        <section id="values">
           <div class="values">
             <div class="values__title">
               <h1>
@@ -247,26 +247,8 @@
         </section>
 
 
-        <!-- IMAGES -->
-        <section>
-          <div class="images">
-            <div class="images__title">
-              <h2>
-                CENTRO DE IMAGENES
-              </h2>
-            </div>
-            <div class="images__info">
-              <p>
-                Ponemos a tu disposición algunas imagenes de nuestro personal y capacitación
-              </p>
-            </div>
-
-          </div>
-        </section>
-
-
         <!-- SUMMARYS -->
-        <section>
+        <section id="summary">
           <div class="summary">
             <div class="summary__img">
               <img src="./assets/img/SlidesExample.jpg" width="400px" alt="LOGO">
@@ -285,7 +267,7 @@
 
         
         <!-- CONTACT -->
-        <section>
+        <section id="contact">
             <div class="contact">
               <div class="contact__title">
                 <h2>
@@ -298,22 +280,22 @@
                 </p>
               </div>
               <div class="form">
-                <form action="">
+                <form method="get" name="contacto" id ="contacto" action="https://www.google.es/" >
                   <label for="nombre">Nombre</label>
                     <br>
-                  <input required name="nombre" id="nombre" type="text"  class="" placeholder="Nombre" >
+                  <input required name="nombre" id="nombre" type="text" placeholder="Nombre" >
                     <br> <br>
                   <label for="mail">Correo Electronico</label>
                     <br>
-                  <input required name="mail" id="mail" type="text"  class="" placeholder="Email" >
+                  <input required name="mail" id="mail" type="text" placeholder="Email" >
                     <br> <br>
                   <label for="tema">Tema</label>
                     <br>
-                  <input required name="tema" id="tema" type="text"  class="" placeholder="Tema" >
+                  <input required name="tema" id="tema" type="text" placeholder="Tema" >
                     <br> <br>
                     <label for="mensajes">Mensaje</label>
                     <textarea name="mensajes" id="mensajes" class=""  rows="6" cols="40" ></textarea>
-                    <input  type="button" id="submit" value="Enviar" class="form__btn">
+                    <input  type="submit" id="submit" value="Enviar" class="form__btn">
                 </form>
               </div>
               <div class="contact__mail">
